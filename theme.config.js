@@ -1,9 +1,14 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  projectLink: 'https://github.com/Mohi222/itsmohi-ir',
+  titleSuffix: ' – itsMohi',
+  nextLinks: true,
+  prevLinks: true,
+  darkMode: true,
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
+      <time>{YEAR}</time> © Mohammad A. Ahmadian.
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
